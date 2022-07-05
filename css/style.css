@@ -34,25 +34,30 @@ html, body {
   footer p{
     color: grey;
   }
+
 /*
-header
+DO NOT TOUCH ABOVE STYLES
 */
 
-header{
+/*
+search page header
+*/
+
+.search header{
     display: flex;
     justify-content: space-between;
 }
 
-header a{
+.search header a{
     text-decoration: none;
     color: black;
 }
 
-header a:hover{
+.search header a:hover{
     text-decoration: underline;
 }
 
-header ul{
+.search header ul{
     margin: 10px;
     padding: 0;
     list-style: none;
@@ -60,16 +65,16 @@ header ul{
     justify-content: space-between;
 }
 
-header li{
+.search header li{
     padding: 10px;
     font-size: 14px;
 }
 
 /*
-main
+search page main
 */
 
-main{
+.search main{
 
     display: flex;
     flex-direction: column ;
@@ -136,32 +141,29 @@ main{
     color: #202124;
   }
 
-/*
-result
-*/
 
 /*
-header
+result page header
 */
 
-header{
+.result header{
     display: flex;
     flex-direction: row;
     padding: 30px 40px 0 40px;
     align-items: center;
 }
 
-header a{
+.result header a{
     padding-right: 30px;
 }
 
-header img{
+.result header img{
     width: 92px;
     height: 30px;
 }
 
 
-header form {
+.result header form {
     border: 0;
 
     width: 100%;
@@ -176,21 +178,21 @@ header form {
     padding-right: 15px;
   }
 
-header input{
+  .result header input{
     border: none;
     border-radius: 24px;
     width: 100%;
     padding: 15px 0px 15px 20px;
 }
 
-header input:focus {
+.result header input:focus {
     outline: 0;
   }
 
 
 
   
-header button{
+  .result header button{
     border: none;
     background-color: transparent;
     width: 35px;
@@ -199,6 +201,10 @@ header button{
     
 }
     
-header button svg{
+.result header button svg{
     fill: #4285f4;
 }
+
+/*
+result main
+*/

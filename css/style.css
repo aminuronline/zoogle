@@ -160,8 +160,14 @@ result page header
 .result header{
     display: flex;
     flex-direction: row;
-    padding: 30px 40px 0 70px;
+    padding: 30px 40px 0 30px;
     align-items: center;
+}
+
+@media  (min-width: 1000px) {
+  .result header{
+    padding: 30px 40px 0 70px;
+  }
 }
 
 .result header a{
@@ -172,6 +178,7 @@ result page header
     width: 92px;
     height: 30px;
 }
+
 
 
 .result header form {
@@ -222,15 +229,22 @@ result main
 .result main .animals-list{
   width: 100%;
   max-width: 900px;
-  padding: 50px 50px 0;
+  padding: 50px 30px 0;
   
+}
+
+@media  (min-width: 1000px) {
+  .result main .animals-list{
+    padding: 50px 70px 0;
+    
+  }
 }
 
 .result main h3{
   margin: 0;
 }
 
-.result main  a{
+.result main a{
   text-decoration: none;
   color: var(--link-blue);
   font-weight: normal;

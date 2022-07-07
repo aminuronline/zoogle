@@ -106,29 +106,23 @@ header .name img{
 header .name{
   display: flex;
   padding-right: 10px;
-
-  
 }
 
 header h1{
-  padding-top: 13px;
+  padding: 13px 0 13px 0;
   font-size: 25px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  
-
 }
 
 .head{
-  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 300px;
   width: 100%;
-  background-image: url(https://cdn.wallpapersafari.com/82/24/mKibgs.jpg) ;
- 
+  background-image: url(https://cdn.wallpapersafari.com/82/24/mKibgs.jpg);
 }
 
 .head h1{

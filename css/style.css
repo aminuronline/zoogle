@@ -266,10 +266,8 @@ result wrapper
 
   .result .wrapper{
     display: flex;   
-    max-width: 1400px; 
     width: 100%;
     background-color: transparent;
-
     border-top: 1px solid lightgray;
     margin-top: 50px;
    

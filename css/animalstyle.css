@@ -34,25 +34,46 @@ header{
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid gray;
-  background-image: url(https://images.photowall.com/products/50004/lots-of-animals-old-school.jpg?h=699&q=85)
-  
+  background-color: rgb(255, 166, 0 );
+  padding: 10px 0 10px 10px;
 }
+
+
 
 header ul{
   list-style: none;
   margin: 10px;
+  padding-left: 0;
   display: flex;
+
+ 
+
 }
 
 header li{
-  padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  margin: 10px;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header li a img{
+  width: 100;
+  max-width: 50px;
+  
+
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+
 }
 
 header a{
   text-decoration: none;
-  color: black;
+  color: red;
 }
 
 header a:hover{
@@ -60,62 +81,195 @@ header a:hover{
   color: blue;
 }
 
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin: 70px 0;
+  color: brown;
+}
+
 /*
 header img
 */
 
-header img{
+
+header .name img{
   margin: 10px;
   max-width: 80px;
   width: 100%;
   border: 2px solid black;
   border-radius: 50%;
   background-color: white;
+  
 }
 
 header .name{
   display: flex;
+  padding-right: 10px;
+
+  
 }
 
 header h1{
   padding-top: 13px;
   font-size: 25px;
-  font-weight: normal;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+.head{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  background-image: url(https://cdn.wallpapersafari.com/82/24/mKibgs.jpg) ;
+ 
+}
+
+.head h1{
+  padding: 20px;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: rgb(255, 166, 0);
+  background-color: rgba(255, 255, 255, 0.918);
+  border-radius: 5px;
+
+
+
 }
 
 /*
 centering
 */
 
-.centering{
+
+
+.title{
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+}
+
+
+
+.centering{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding-bottom: 30px;
+  
+
 }
 
 main{
-  width:100%;
+  width: 800px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-bottom: 2px solid gray;
-  border-right: 2px solid gray;
-  border-left: 2px solid gray;
+  align-items: flex-start;
+  
+  
 }
 
-img{
+main img{
   max-width: 750px;
   width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
+  
+}
 
+main h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  font-size: 30px;
+  margin: 10px 0 5px 0;
+  
+}
+
+main p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 15px 0;
 }
 
 /*
-main
+aside
 */
 
-h2{
-  text-decoration: underline;
+.side{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid lightgrey;
+
+}
+
+aside{
+  margin: 70px 0 0 100px;
+  max-width: 300px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  height: 100%;
+}
+
+
+aside h3{
+  margin: 10px 0 70px 10px;
+  font-size: 40px;
+  color: brown;
+}
+
+aside a .monkey{
+  border: 1px solid red;
+}
+
+aside ul{
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  list-style: none;
+  padding: 10px 0 5px 10px;
+  height: 100%;
+  margin: 0;
+ 
+  
+  
+}
+
+aside li{
+  margin-bottom: 30px;
+  max-height: 100%;
+}
+
+/*
+button
+*/
+
+button{
+  margin-bottom: 30px;
+  
+}
+
+button p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 3px 5px;
+
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button a{
+  text-decoration: none;
+  color: red;
 }

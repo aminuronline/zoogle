@@ -1,0 +1,121 @@
+
+/*
+ name: "Malayan Tiger",
+          latin_name: "Panthera tigris jacksoni",
+          animal_type: "Mammal",
+          active_time: "Nocturnal",
+          length_min: "7.6",
+          length_max: "9.3",
+          weight_min: "220",
+          weight_max: "400",
+          lifespan: "15",
+          habitat: "Forest",
+          diet: "Deer, wild pigs, and cattle",
+          geo_range: "Malaysia and southern Thailand",
+          image_link:
+            "https://upload.wikimedia.org/wikipedia/commons/6/62/MalayanTiger01.jpg",
+          id: 113,
+*/
+
+/*
+body margin
+*/
+
+body{
+  margin: 0;
+}
+
+/*
+header nav
+*/
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  background-image: url(https://images.photowall.com/products/50004/lots-of-animals-old-school.jpg?h=699&q=85)
+  
+}
+
+header ul{
+  list-style: none;
+  margin: 10px;
+  display: flex;
+}
+
+header li{
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+/*
+header img
+*/
+
+header img{
+  margin: 10px;
+  max-width: 80px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+header .name{
+  display: flex;
+}
+
+header h1{
+  padding-top: 13px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+/*
+centering
+*/
+
+.centering{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+main{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  border-left: 2px solid gray;
+}
+
+img{
+  max-width: 750px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+}
+
+/*
+main
+*/
+
+h2{
+  text-decoration: underline;
+}

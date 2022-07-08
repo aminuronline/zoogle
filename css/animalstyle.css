@@ -205,7 +205,7 @@ aside{
   font-size: 20px;
   border: 2px solid lightgray;
   border-radius: 15px;
-  height: 100%;
+  align-self: flex-start;
 }
 
 

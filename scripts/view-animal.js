@@ -435,24 +435,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "https://upload.wikimedia.org/wikipedia/commons/6/62/MalayanTiger01.jpg",
       id: 113,
     },
-
-    {
-      name: "Ruppell's Griffon Vulture",
-      latin_name: "Gyps rueppellii",
-      animal_type: "Bird",
-      active_time: "Diurnal",
-      length_min: "3.1",
-      length_max: "3.3",
-      weight_min: "15",
-      weight_max: "20",
-      lifespan: "50",
-      habitat: "Woodland savannah",
-      diet: "Carrion",
-      geo_range: "Africa",
-      image_link:
-        "https://upload.wikimedia.org/wikipedia/commons/0/00/R%C3%BCppell%27s_Vulture_%28Gyps_rueppelli%29_%2821160089681%29.jpg",
-      id: 155,
-    },
     {
       name: "Two-toed Sloth",
       latin_name: "Choloepus didactylus",
@@ -1538,7 +1520,10 @@ document.addEventListener("DOMContentLoaded", () => {
     description.innerHTML = getDescription(animal);
     document.querySelector(
       "button a"
-    ).href = `https://en.wikipedia.org/wiki/${animal.name.replace(" ", "_")}`;
+    ).href = `https://en.wikipedia.org/wiki/${animal.name.replaceAll(
+      " ",
+      "_"
+    )}`;
     const aside = document.querySelector("aside");
     let asidehtml = document.createElement("ul");
     asidehtml.innerHTML = `
